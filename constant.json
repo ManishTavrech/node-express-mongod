@@ -1,0 +1,18 @@
+{
+    "HTTP": "http",
+    "SERVER_ERROR": "Internal server error",
+    "METHOD_CODE":{
+        "INSERT" : 201,
+        "UPDATE" : 201,
+        "DELETE" : 204,
+        "SELECT" : 200
+    },
+    "ERROR_MESSAGES":{
+        "USER_EMPTY": "User data is empty.",
+        "DATA_NOT_INSERT": "User data is not insert.",
+        "DATA_NOT_DELETE": "User data is not delete.",
+        "DATA_NOT_UPDATE": "User data is not update.",
+        "CREDENTIAL_NOT_MATCH": "Invalid user name.",
+        "PASSWORD_NOT_MATCH": "Invalid password."
+    }
+}
